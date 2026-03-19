@@ -1,0 +1,302 @@
+[
+  {
+    "ComputerName": "SRV-FILE-657",
+    "OS": "Windows Server 2019",
+    "Role": "Web",
+    "Version": 3.7
+  },
+  {
+    "ComputerName": "SRV-SQL-102",
+    "OS": "Windows Server 2012 R2",
+    "Role": "App",
+    "Version": 3.1
+  },
+  {
+    "ComputerName": "SRV-PRINT-162",
+    "OS": "Windows Server 2019",
+    "Role": "App",
+    "Version": 5.7
+  },
+  {
+    "ComputerName": "SRV-MEMBERSERVER-285",
+    "OS": "Windows Server 2016",
+    "Role": "App",
+    "Version": 2.9
+  },
+  {
+    "ComputerName": "SRV-APP-226",
+    "OS": "Windows Server 2019",
+    "Role": "File",
+    "Version": 4.0
+  },
+  {
+    "ComputerName": "SRV-PRINT-496",
+    "OS": "Windows Server 2012 R2",
+    "Role": "SQL",
+    "Version": 3.4
+  },
+  {
+    "ComputerName": "SRV-MEMBERSERVER-844",
+    "OS": "Windows Server 2016",
+    "Role": "Print",
+    "Version": 2.0
+  },
+  {
+    "ComputerName": "SRV-APP-165",
+    "OS": "Windows Server 2012 R2",
+    "Role": "Web",
+    "Version": 4.6
+  },
+  {
+    "ComputerName": "SRV-WEB-256",
+    "OS": "Windows Server 2012 R2",
+    "Role": "Web",
+    "Version": 1.7
+  },
+  {
+    "ComputerName": "SRV-MEMBERSERVER-561",
+    "OS": "Windows Server 2016",
+    "Role": "Print",
+    "Version": 5.1
+  },
+  {
+    "ComputerName": "SRV-FILE-690",
+    "OS": "Windows Server 2012 R2",
+    "Role": "Web",
+    "Version": 4.6
+  },
+  {
+    "ComputerName": "SRV-WEB-169",
+    "OS": "Windows Server 2016",
+    "Role": "File",
+    "Version": 2.1
+  },
+  {
+    "ComputerName": "SRV-WEB-133",
+    "OS": "Windows Server 2012 R2",
+    "Role": "SQL",
+    "Version": 4.7
+  },
+  {
+    "ComputerName": "SRV-WEB-202",
+    "OS": "Windows Server 2012 R2",
+    "Role": "App",
+    "Version": 3.7
+  },
+  {
+    "ComputerName": "SRV-WEB-153",
+    "OS": "Windows Server 2016",
+    "Role": "Web",
+    "Version": 5.8
+  },
+  {
+    "ComputerName": "SRV-FILE-347",
+    "OS": "Windows Server 2016",
+    "Role": "File",
+    "Version": 2.9
+  },
+  {
+    "ComputerName": "SRV-PRINT-528",
+    "OS": "Windows Server 2019",
+    "Role": "Print",
+    "Version": 4.1
+  },
+  {
+    "ComputerName": "SRV-WEB-733",
+    "OS": "Windows Server 2016",
+    "Role": "App",
+    "Version": 5.3
+  },
+  {
+    "ComputerName": "SRV-MEMBERSERVER-189",
+    "OS": "Windows Server 2019",
+    "Role": "SQL",
+    "Version": 1.6
+  },
+  {
+    "ComputerName": "SRV-FILE-003",
+    "OS": "Windows Server 2012 R2",
+    "Role": "File",
+    "Version": 2.0
+  },
+  {
+    "ComputerName": "SRV-APP-012",
+    "OS": "Windows Server 2016",
+    "Role": "App",
+    "Version": 4.2
+  },
+  {
+    "ComputerName": "SRV-WEB-780",
+    "OS": "Windows Server 2012 R2",
+    "Role": "App",
+    "Version": 3.4
+  },
+  {
+    "ComputerName": "SRV-PRINT-329",
+    "OS": "Windows Server 2016",
+    "Role": "MemberServer",
+    "Version": 4.1
+  },
+  {
+    "ComputerName": "SRV-PRINT-214",
+    "OS": "Windows Server 2012 R2",
+    "Role": "MemberServer",
+    "Version": 1.1
+  },
+  {
+    "ComputerName": "SRV-MEMBERSERVER-937",
+    "OS": "Windows Server 2012 R2",
+    "Role": "Print",
+    "Version": 3.1
+  },
+  {
+    "ComputerName": "SRV-SQL-689",
+    "OS": "Windows Server 2016",
+    "Role": "File",
+    "Version": 4.0
+  },
+  {
+    "ComputerName": "SRV-MEMBERSERVER-132",
+    "OS": "Windows Server 2016",
+    "Role": "MemberServer",
+    "Version": 1.3
+  },
+  {
+    "ComputerName": "SRV-SQL-899",
+    "OS": "Windows Server 2012 R2",
+    "Role": "File",
+    "Version": 4.7
+  },
+  {
+    "ComputerName": "SRV-WEB-887",
+    "OS": "Windows Server 2019",
+    "Role": "Print",
+    "Version": 4.9
+  },
+  {
+    "ComputerName": "SRV-PRINT-889",
+    "OS": "Windows Server 2012 R2",
+    "Role": "App",
+    "Version": 2.2
+  },
+  {
+    "ComputerName": "SRV-SQL-614",
+    "OS": "Windows Server 2012 R2",
+    "Role": "SQL",
+    "Version": 1.8
+  },
+  {
+    "ComputerName": "SRV-FILE-463",
+    "OS": "Windows Server 2016",
+    "Role": "Print",
+    "Version": 2.1
+  },
+  {
+    "ComputerName": "SRV-APP-119",
+    "OS": "Windows Server 2019",
+    "Role": "Web",
+    "Version": 1.3
+  },
+  {
+    "ComputerName": "SRV-SQL-449",
+    "OS": "Windows Server 2019",
+    "Role": "App",
+    "Version": 4.3
+  },
+  {
+    "ComputerName": "SRV-WEB-403",
+    "OS": "Windows Server 2016",
+    "Role": "MemberServer",
+    "Version": 4.0
+  },
+  {
+    "ComputerName": "SRV-FILE-252",
+    "OS": "Windows Server 2016",
+    "Role": "Web",
+    "Version": 2.6
+  },
+  {
+    "ComputerName": "SRV-PRINT-200",
+    "OS": "Windows Server 2016",
+    "Role": "Print",
+    "Version": 4.6
+  },
+  {
+    "ComputerName": "SRV-APP-612",
+    "OS": "Windows Server 2012 R2",
+    "Role": "Web",
+    "Version": 1.5
+  },
+  {
+    "ComputerName": "SRV-WEB-055",
+    "OS": "Windows Server 2016",
+    "Role": "Web",
+    "Version": 3.8
+  },
+  {
+    "ComputerName": "SRV-SQL-110",
+    "OS": "Windows Server 2019",
+    "Role": "File",
+    "Version": 4.1
+  },
+  {
+    "ComputerName": "SRV-MEMBERSERVER-799",
+    "OS": "Windows Server 2012 R2",
+    "Role": "File",
+    "Version": 5.4
+  },
+  {
+    "ComputerName": "SRV-FILE-814",
+    "OS": "Windows Server 2019",
+    "Role": "Print",
+    "Version": 1.9
+  },
+  {
+    "ComputerName": "SRV-SQL-089",
+    "OS": "Windows Server 2016",
+    "Role": "SQL",
+    "Version": 5.5
+  },
+  {
+    "ComputerName": "SRV-FILE-286",
+    "OS": "Windows Server 2016",
+    "Role": "SQL",
+    "Version": 4.6
+  },
+  {
+    "ComputerName": "SRV-AD-001",
+    "OS": "Windows Server 2016",
+    "Role": "DomainController",
+    "Version": 3.1
+  },
+  {
+    "ComputerName": "SRV-FILE-652",
+    "OS": "Windows Server 2012 R2",
+    "Role": "SQL",
+    "Version": 5.5
+  },
+  {
+    "ComputerName": "SRV-FILE-672",
+    "OS": "Windows Server 2016",
+    "Role": "SQL",
+    "Version": 1.3
+  },
+  {
+    "ComputerName": "SRV-MEMBERSERVER-930",
+    "OS": "Windows Server 2012 R2",
+    "Role": "File",
+    "Version": 2.9
+  },
+  {
+    "ComputerName": "SRV-MEMBERSERVER-877",
+    "OS": "Windows Server 2012 R2",
+    "Role": "Print",
+    "Version": 1.3
+  },
+  {
+    "ComputerName": "SRV-APP-505",
+    "OS": "Windows Server 2019",
+    "Role": "File",
+    "Version": 2.3
+  }
+]
