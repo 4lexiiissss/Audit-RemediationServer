@@ -20,13 +20,17 @@ Write-Host "Demarrage de l'audit..." -ForegroundColor Cyan
 
 $data = get-content "Data/liste_serveurs.txt" 
 
-
 # ÉTAPE 2 : Bouclez sur les serveurs et appliquez la logique métier
 # (Audit OS, Audit Application, Remédiation si nécessaire)
 $resultats = [System.Collections.Generic.List[object]]::new()
 
-foreach ($servers in $data) {
+function Invoke-AuditServeur {
+    param (
+        $servers
+    )
+
     Write-host "Audit servers: $servers" -ForegroundColor Green
+
     $os = Invoke-Command -ComputerName $servers -ScriptBlock {
         Get-CimInstance Win32_OperatingSystem
     }
@@ -37,9 +41,11 @@ foreach ($servers in $data) {
 
     $Version = $Agent.Version
     $Role = $Agent.Role 
+
     if ($os.Caption -ne "Windows Server 2016") {
-        continue
+        return $null
     }
+
     if ($Role -eq "DomainController") {
         $action = "MANUAL_CHECK"
     }
@@ -48,12 +54,15 @@ foreach ($servers in $data) {
         Invoke-Command -ComputerName $servers -ScriptBlock { Stop-Service "DataFlowAgent" -Force }
         $action = "STOPPED"
     }
+
     if ($Version -ge "4.0" -and $Version -lt "5.0") {
         $action = "WARNING"
     }
+
     if ($Version -ge "5.0") {
         $action = "OK"
     }
+
     $obj = [PSCustomObject]@{
         ComputerName = $servers
         OS = $os.Caption
@@ -61,8 +70,18 @@ foreach ($servers in $data) {
         Version = $Version
         Action = $action
     }
-    $resultats.Add($obj)   
+
+    return $obj
 }
+
+foreach ($servers in $data) {
+    $result = Invoke-AuditServeur -servers $servers
+
+    if ($null -ne $result) {
+        $resultats.Add($result)
+    }
+}
+
 write-host $resultats
 $resultats | Export-Csv "Resultat.csv" -Delimiter ";" -NoTypeInformation -Encoding UTF8
 Write-Host "Audit terminee. Resultats sauvegardes dans 'Resultat.csv'" -ForegroundColor Cyan
